@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang = "fr" dir ="ltr">
+  <head>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="themes.css">
+    <title>Ajout d'un thème</title>
+  </head>
+  <body>
+    <h1>Ajout d'un  thème </h1>
+    <form action = "ajouter_theme.php" method = "post">
+      <table>
+        <tr>
+          <td> <label for="name"> Nom du thème : </label> </td>
+          <td> <input type="text" id="name" name = "nom" placeholder = "Entrer le nom de votre thème" required> </td>
+        </tr>
+        <tr>
+          <td> <label for="descriptif"> Descriptif du thème : </label> </td>
+          <td> <textarea type="text" id="descriptif" name="descriptif" placeholder="Entrer votre descriptif" rows="7"cols="30" wrap="hard" required></textarea> </td>
+        </tr>
+        <tr>
+          <td> <input type="submit"  value="Ajouter"> </td>
+        </tr>
+
+
+        </table>
+    </form>
+</html>
