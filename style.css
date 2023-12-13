@@ -1,8 +1,90 @@
-body {
-  background-color: lightblue;
+@import url(http://fonts.googleapis.com/css?family=Cantarell:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lobster:100,300,400,700,900);
+
+
+
+a:link {
+ color: #303030;
+ font-family: 'Cantarell', sans-serif;
+ font-size:14;
+ text-decoration: none;
+ }
+
+a:visited {
+	color: #303030;
+	font-family:'Cantarell', sans-serif;
+	text-decoration: none;
+	font-size:14;
+}
+a:hover {
+ color: #990000;
+ text-decoration: none;
+ font-family:'Cantarell', sans-serif;
+ font-size:14;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+h1{
+	background:url(background.png) repeat-x scroll 0px 100% ;
+	color: #F10000; 
+	font-family: 'Lobster', sans-serif; 
+	font-size: 150%;
+	border: 3px;
+	text-align: center;
+	border-width:3px;
+	border-style:groove;
+	border-color:black;
+	border-radius: 5px;
+ }
+
+h2 {
+	background:url(background.png) repeat-x scroll 0px 100% ;
+	font-size: 18;
+	font-family:'Lobster', sans-serif; 
+	color: #F10000;
+	border: 2px;
+	text-align: center;
+	border-width:3px;
+	border-style:groove;
+	border-color:black;
+	border-radius: 5px;
+}
+
+table{
+  border: 0;
+  border-collapse : collapse;
+}
+
+table.tableau tr:nth-child(2n)
+{
+    background-color: #a5a5a5;
+}
+table.tableau tr:nth-child(2n+1)
+{
+    background-color: #bfbfbf;
+}
+table.tableau tr:nth-child(0n+1) 
+{
+	background: url(background.png);
+	font-size: 18;
+	font-family:'Lobster', sans-serif; 
+	color: #F10000;
+	padding: 15px 25px;
+	text-align: center;
+	margin:0px;
+}
+table.tableau th 
+{
+	background: url(background.png);
+	font-size: 18;
+	font-family:'Lobster', sans-serif; 
+	color: #F10000;
+	padding: 15px 25px;
+	text-align: center;
+	margin:0px;
+}
+
+table.tableau td
+{
+ 	padding: 15px 25px;
+ 	margin:0;
 }
