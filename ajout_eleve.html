@@ -2,28 +2,34 @@
 <html lang = "fr" dir ="ltr">
   <head>
     <meta charset = "utf-8">
-    <link rel="stylesheet" href="themes.css">
+    <link rel="stylesheet" href="eleve.css">
     <title>Ajout d'un élève</title>
   </head>
   <body>
     <h1>Ajout d'un élève</h1>
-    <form action = "valider_eleve.php" method = "post">
-      <table>
-        <tr>
-          <td> <label for="prenom"> Votre prénom : </label> </td>
-          <td><input type = "text" id="prenom" name = "prenom" placeholder = "Entrer votre prenom." required></td>
-        </tr>
-        <tr>
-          <td> <label for="nom"> Votre nom : </label> </td>
-          <td><input type="text" id="nom" name = "nom" placeholder="Entrer votre nom." required></td>
-        </tr>
-        <tr>
-          <td> <label for="dateNaiss"> Votre date de naissance : </label> </td>
-          <td><input type="date" id="dateNaiss" name = "dateNaiss" max="2023-12-07" required></td>
-        </tr>
-        <table>
-          <input type="submit"  value="Ajouter">
-        </table>
-      </table>
+    <form class="form" action = "valider_eleve.php" method = "post">
+      
+        
+        <div class="field">
+          <label for="prenom"> Votre prénom : </label> 
+          <input type = "text" id="prenom" name = "prenom" placeholder = "Entrer votre prenom." required>
+        </div>
+        
+        
+           <div class="field">
+            <label for="nom"> Votre nom : </label> 
+          <input type="text" id="nom" name = "nom" placeholder="Entrer votre nom." required>
+           </div>
+      
+        
+           <div class="field">
+            <label for="dateNaiss"> Votre date de naissance : </label> 
+          <input type="date" id="dateNaiss" name = "dateNaiss" max="2023-12-07" required>
+      
+           </div>
+      
+          <input class="submit-btn" type="submit"  value="Ajouter">
+      
+ 
     </form>
 </html>

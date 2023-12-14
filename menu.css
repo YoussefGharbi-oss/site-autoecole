@@ -1,0 +1,78 @@
+body{
+    background-color: lightblue;
+
+    background-size: cover;
+    display: flex;
+
+  
+    margin-top: 50px;
+    gap: 125px;
+
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  
+    padding: 50px;
+    margin: 0;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: left;
+    width: max-content;
+    gap: 25px;
+    margin-left: 50px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+
+}
+a:hover{
+    color: navy;
+    background-color: navy; 
+    color: white;
+    border-radius: 50px;
+
+}
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    
+    width: 100%;
+    gap: 10px;
+   
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.navs{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+ 
+}
+.title{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
